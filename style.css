@@ -64,6 +64,11 @@
   padding-left: 8px;
   text-align: end;
 }
+
+.nav-item a {
+  transition: 0.2s;
+}
+
 .nav-item a:hover {
   background: #b1b1b1;
   color: #fff;
@@ -79,16 +84,16 @@
   -webkit-transform: scale(0.7);
   transform: scale(0.9);
  }*/
- #vagas .box:hover{
-   
+#vagas .box:hover {
   -webkit-transform: scale(0.7);
   transform: scale(0.9);
- }
+}
 
- .box{
+.box {
   cursor: pointer;
- }
- /*#grupos div:hover{
+  transition: 0.5s ease;
+}
+/*#grupos div:hover{
   -webkit-transform: scale(0.7);
   transform: scale(0.9);
  }
