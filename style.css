@@ -7,13 +7,23 @@
   padding-bottom: 20px;
 }
 
-.forum {
- 
-  margin-left: 5px;
-  margin-bottom: 0px;
+#menu-aba a {
+  background-color: rgba(0, 28, 92, 0.705);
+  border: 0px;
+  color: white;
+  border-radius: 4px 4px 0 0;
+  margin-left: 2px;
 }
 
-#forum1{
+#menu-aba a:hover {
+  background-color: rgb(0, 28, 92);
+}
+
+#menu-aba a:active {
+  background-color: rgb(0, 28, 92);
+}
+
+#forum1 {
   margin-top: 10px;
 }
 .headerSearch {
@@ -45,9 +55,7 @@
 .login-card {
   padding: 0px 75px 20px 75px;
   width: 500px;
-  margin-top: 90px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30px auto;
 
   background-color: #081347;
 }
@@ -128,5 +136,3 @@
 .perfil-container h2 {
   text-align: center;
 }
-
-
