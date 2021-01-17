@@ -34,7 +34,7 @@ margin-bottom: 0px;
 }
 
 .box {
-  background-color: white;
+  background-color: rgb(241, 240, 240);
   margin-top: 2%; 
   border-radius: 1em;
   
@@ -73,22 +73,24 @@ margin-bottom: 0px;
   border-color: #B1B1B1;
  }
 
+#vagas {
+  margin-top: 10px;
+}
 
-
-#forum1 div:hover{
-  -webkit-transform: scale(0.5);
+/*#forum1 div:hover{
+  -webkit-transform: scale(0.7);
   transform: scale(0.9);
  }
  #vagas div:hover{
-  -webkit-transform: scale(0.5);
+  -webkit-transform: scale(0.7);
   transform: scale(0.9);
  }
  #grupos div:hover{
-  -webkit-transform: scale(0.5);
+  -webkit-transform: scale(0.7);
   transform: scale(0.9);
  }
  #rede div:hover{
   -webkit-transform: scale(0.5);
   transform: scale(0.9);
- }
+ }*/
 

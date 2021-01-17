@@ -1,28 +1,5 @@
 
 
-var btn = document.getElementById('btn-forum')
-var container = document.getElementById('forum1')
-btn.addEventListener('click', function() {
-    
-  if(container.style.display === 'none') {
-      container.style.display = 'block';
-  } else {
-      container.style.display = 'none';
-  }
-});
-
-
-
-var btnGrupos = document.getElementById('btn-grupos')
-var containerGrupos = document.getElementById('grupos')
-btnGrupos.addEventListener('click', function() {
-    
-  if(containerGrupos.style.display === 'none') {
-    containerGrupos.style.display = 'block';
-  } else {
-    containerGrupos.style.display = 'none';
-  }
-});
 
 
 
