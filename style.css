@@ -7,16 +7,10 @@
   padding-bottom: 20px;
 }
 
-#forum {
-<<<<<<< HEAD
+.forum {
 margin-left: 5px;
 margin-bottom: 0px;
-background-color: orange;    
-=======
-  margin-right: 0px;
-  margin-left: 0px;
-  background-color: orange;
->>>>>>> 3fd42b9e33038288788802166e3243c1d820d64c
+  
 }
 
 .headerSearch {
@@ -39,14 +33,13 @@ background-color: orange;
   font-size: 15px;
 }
 
-<<<<<<< HEAD
 .box {
-    background-color: white;
-    margin-top: 2%; 
-    border-radius: 2em;
-    
+  background-color: white;
+  margin-top: 2%; 
+  border-radius: 1em;
+  
 }
-=======
+
 .login-card {
   padding: 0px 75px 20px 75px;
   width: 500px;
@@ -73,4 +66,29 @@ background-color: orange;
   padding-left: 8px;
   text-align: end;
 }
->>>>>>> 3fd42b9e33038288788802166e3243c1d820d64c
+.nav-item a:hover {
+  background: #B1B1B1;
+  color: #FFF;
+  font-weight: bold;
+  border-color: #B1B1B1;
+ }
+
+
+
+#forum1 div:hover{
+  -webkit-transform: scale(0.5);
+  transform: scale(0.9);
+ }
+ #vagas div:hover{
+  -webkit-transform: scale(0.5);
+  transform: scale(0.9);
+ }
+ #grupos div:hover{
+  -webkit-transform: scale(0.5);
+  transform: scale(0.9);
+ }
+ #rede div:hover{
+  -webkit-transform: scale(0.5);
+  transform: scale(0.9);
+ }
+
