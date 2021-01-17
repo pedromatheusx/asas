@@ -4,18 +4,13 @@
 
 .bodySearch {
     background-color: rgb(0, 28, 92);
-    padding-top: 9px;
     padding-bottom: 20px;
-    margin-top: 50px;
     
 }
 
 #forum {
-    position: absolute;
-    width: 400px;
-    bottom: 165px;
-    right: 710px;
-   
+  margin-right: 0px; 
+  margin-left: 0px;
 background-color: orange;    
 }
 
