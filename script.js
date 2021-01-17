@@ -2,6 +2,10 @@ function load(){
     window.location.reload(true);
 }
 
+
+
+
+
 var btnForum = document.getElementById('btn-forum')
 var containerForum = document.getElementById('forum1')
 btnForum.addEventListener('click', function () {

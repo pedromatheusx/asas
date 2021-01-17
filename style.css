@@ -1,5 +1,5 @@
 #test {
-  background-color: rgb(128, 8, 240);
+  background-color: #D7E8EC;
 }
 
 .bodySearch {
@@ -134,3 +134,11 @@
 }
 
 
+#buttons .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: rgb(0, 28, 92);
+}
+
+
+#buttons .btn-warning{
+  border-color: none;
+}
