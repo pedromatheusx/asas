@@ -9,8 +9,8 @@
 }
 
 #forum {
-  margin-right: 0px; 
-  margin-left: 0px;
+margin-left: 5px;
+margin-bottom: 0px;
 background-color: orange;    
 }
 
@@ -34,3 +34,9 @@ background-color: orange;
    font-size: 15px;
 }
 
+.box {
+    background-color: white;
+    margin-top: 2%; 
+    border-radius: 2em;
+    
+}
