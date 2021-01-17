@@ -2,137 +2,270 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <link href="style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asas</title>
+  <meta charset="UTF-8">
+  <link href="style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asas</title>
 </head>
 
 <body id="test">
-    <div class="acessibilidade">
-        <nav>
-            <ul class="nav justify-content-center text-center">
+  <div class="acessibilidade">
+    <nav>
+      <ul class="nav justify-content-center text-center">
 
-                <li class="nav-item"><a href="#conteudo" accesskey="1"  class="scroll nav-link " id="irparaconteudo">Ir
-                        para conteúdo [1]</a></li>
-                <li class="nav-item"><a href="#menumain" accesskey="2" class="scroll nav-link">Ir para menu [2]</a></li>
-                <li class="nav-item"><a href="#rodape" accesskey="3" class="scroll nav-link">Ir para rodapé [3]</a></li>
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div
-                    class="nav-item"><span class="menuacess"><a href="#"
-                            class="scroll nav-link text-uppercase mr-3">Acessibilidade </a></span></div>
-            </ul>
-        </nav>
-    </div>
-    <div class="container">
-        <nav class="navbar navbar-light  justify-content-between">
-            <a class="navbar-brand" href="#">
-                <img src="./imagens/Logo.png" width="78" height="78" alt="">
-            </a>
-            <form class="form-inline" action="login.html">
+        <li class="nav-item"><a href="#conteudo" accesskey="1" class="scroll nav-link " id="irparaconteudo">Ir
+            para conteúdo [1]</a></li>
+        <li class="nav-item"><a href="#menumain" accesskey="2" class="scroll nav-link">Ir para menu [2]</a></li>
+        <li class="nav-item"><a href="#rodape" accesskey="3" class="scroll nav-link">Ir para rodapé [3]</a></li>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<div
+          class="nav-item"><span class="menuacess"><a href="#"
+              class="scroll nav-link text-uppercase mr-3">Acessibilidade </a></span></div>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <nav class="navbar navbar-light  justify-content-between">
+      <a class="navbar-brand" href="#">
+        <img src="./imagens/Logo.png" width="78" height="78" alt="">
+      </a>
+      <form class="form-inline" action="login.html">
 
-                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Login</button>
-            </form>
-          </nav>
-   
-        <nav id="buttons" class="navbar navbar-light ">
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a id="btn-vagas" class="nav-link btn btn-warning text-white forum" href="#vagas">Vagas</a>
-              </li>
-              <li class="nav-item">
-                <a id="btn-rede" class="nav-link btn btn-warning text-white forum" href="#rede">Rede de Assitencia</a>
-              </li>
-          
-          </ul>
-        </nav>
-        <!--<button id="forum" type="button" class="btn btn-primary dropdown-item"  href="#one"></button>
+        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Login</button>
+      </form>
+    </nav>
+
+    <nav id="buttons" class="navbar navbar-light ">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a id="btn-vagas" class="nav-link btn btn-warning text-white forum" href="#vagas">Vagas</a>
+        </li>
+        <li class="nav-item">
+          <a id="btn-rede" class="nav-link btn btn-warning text-white forum" href="#rede">Rede de Assitencia</a>
+        </li>
+        <li class="nav-item">
+          <a id="btn-forum" class="nav-link btn btn-warning text-white forum" href="#forum1">Forum</a>
+        </li>
+      </ul>
+    </nav>
+    <!--<button id="forum" type="button" class="btn btn-primary dropdown-item"  href="#one"></button>
         <button id="forum" type="button" class="btn btn-primary dropdown-item">Grupos</button>
         <button id="forum" type="button" class="btn btn-primary dropdown-item">Vagas</button>
         <button id="forum" type="button" class="btn btn-primary dropdown-item">Rede de Assitencia</button>-->
-<div class="bodySearch col btn ">
- 
-    <form>
+    <div class="bodySearch col btn ">
+
+      <form>
         <div class="form-group text-center">
-          <label class="nameTitle " >Encontre um grupo ,vagas ou assistência</label>
-          <input type="search" class="form-control" id="search" aria-describedby="search" placeholder="Search"> 
+          <label class="nameTitle ">Encontre um grupo ,vagas ou assistência</label>
+          <input type="search" class="form-control" id="search" aria-describedby="search" placeholder="Search">
         </div>
     </div>
 
-  
-<div >
-  
-  <div  id="vagas" style="display: none;"class="card col">
-   <!-- <div class="card-header">
+
+    <div>
+
+      <div id="vagas" style="display: none;" class="card col">
+        <!-- <div class="card-header">
       Quote
     </div>-->
-    <div class="card-body">
-      
+        <div class="card-body">
 
+
+        </div>
+
+
+
+        <div class="card-deck">
+          <div class="">
+            <div class="card-body">
+              <div class="card border-dark mb-3" style="max-width: 18rem;">
+
+                <div class="card-body ">
+                  <h5 class="card-header bg-transparent text-center">Tipo</h5>
+                  <br />
+                  <p class="card-text">
+                    <input type="checkbox" /> Menor Aprendiz
+                  </p>
+                  <p class="card-text">
+                    <input type="checkbox" /> Estágio
+                  </p>
+                  <p class="card-text">
+                    <input type="checkbox" /> CLT
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="card">
+
+            <div class="card-body">
+
+
+              <div class="box col " data-toggle="modal" data-target="#exampleModal">
+                <h3 class="titulo-pergunta">Jovem Aprendiz General Motores - São Caetano do Sul</h3>
+                <p class="data-ultima-atualizacao">16/01/2021 - 22:40</p>
+
+              </div>
+              <div class="box col ">
+                <h3 class="titulo-pergunta">Jovem Aprendiz Fama - Mogi das Cruzes</h3>
+                <p class="data-ultima-atualizacao">16/01/2021 - 22:40</p>
+              </div>
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+      <div id="rede" style="display: none;" class="col">
+        <div class="card">
+
+          <div class="card-body">
+            djhjfshfdjh
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+   
+
+    <div class="card box" id="forum1" style="display: none;">
+      <div class="card-header">
+        <a class="navbar-brand" href="#">
+          <img src="/imagens/gilberto.png" width="30" height="30" alt="Pedro Matheus">
+          
+        </a>
+      Gilberto
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>Há alguma regra especial quanto à formalização do contrato de trabalho com trabalhador portador de deficiência?</p>
+          <footer class="blockquote-footer">17/01/2021 14:00</footer>
+        </blockquote>
+        <div class="text-right">
+        <button class="btn btn-warning text-white" data-toggle="modal" data-target="#modalComent">Responder</button>
+      </div>
+      </div>
+      <div class="card-footer text-muted">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">
+              <a class="navbar-brand" href="#">
+                <img src="/imagens/pedro.jpg" width="30" height="30" alt="Pedro Matheus">
+                
+              </a>
+              Tem sim
+            </li>
+          </ol>
+        </nav>
+      </div>
     </div>
     
+  </div>
 
 
-    <div class="card-deck">
-      <div class="">
-        <div class="card-body">
-         <div class="card border-dark mb-3" style="max-width: 18rem;">
-     
-        <div class="card-body ">
-          <h5 class="card-header bg-transparent text-center">Tipo</h5>
-          <br/>
-          <p class="card-text">
-          <input type="checkbox" /> Menor Aprendiz 
-        </p> 
-        <p class="card-text">
-          <input type="checkbox" /> Estágio 
-        </p> 
-        <p class="card-text">
-          <input type="checkbox" /> CLT 
-        </p> 
+  <div class="modal" id="exampleModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Jovem Aprendiz General Motors - São Caetano do Sul</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Atividades: O(A) Jovem Aprendiz irá realizar rotinas administrativos, como atendimento telefônico , atendimento pessoal irá realizar rotinas administrativas, atendimento pessoal, controle de planilhas, arquivos na fábrica.</p>
+
+            <p>Exegências: Ensino médio em andamento.</p>
+            
+            <p>Sem experiência.</p>
+            
+            <p>Cidade: São Caetano do Sul, São Paulo.</p>
+            
+            <p>Jornada de Trabalho: Segunda a Sexta das 10:00 às 16:00.</p>
+            
+            <p>Benefícios: Vale alimentação, Transporte fretado e Seguro de Vida.</p>
+            
+            <p>Remineração: R$ 712,50  </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" onclick="modalStatus()" data-toggle="modal" data-target="#exampleModal1">Candidate-se</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
         </div>
       </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="modal" id="exampleModal1" tabindex="-1" role="dialog" >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Você está se candidatando ao cargo de:</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-       
+        <div class="modal-body">
+          <p><strong>Jovem Aprendiz General Motors - São Caetano do Sul</strong></p>
+
+           <p> Requisitos:</p>
+            
+           <p> Ensino médio cursando.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning">Confirmar canditatura</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
       </div>
-      <div class="card">
-      
-        <div class="card-body">
-          
-        
-          <div class="box col ">
-              <h3 class="titulo-pergunta">Jovem Aprendiz General Motores - São Caetano do Sul</h3>
-              <p class="data-ultima-atualizacao">16/01/2021 - 22:40</p>		
-              			
-          </div>
-          <div class="box col ">
-            <h3 class="titulo-pergunta">Jovem Aprendiz Fama - Mogi das Cruzes</h3>
-            <p class="data-ultima-atualizacao">16/01/2021 - 22:40</p>						
-        </div>
-          </p>
-        </div>
-       
-      </div>
-      
     </div>
   </div>
   
-  
-  <div id="rede"  style="display: none;" class="col">
-   
+
+  <div id="modalComent" class="modal" tabindex="-1"  role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Comentário</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <textarea cols=45 id="opiniao" rows="10" name="opiniao" maxlength="500" wrap="hard" placeholder="Coragem, você consegue ! "></textarea>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning">Gravar</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
   </div>
+
+  </div>
+  <script src="/script.js">
+
+  </script>
   
-</div>
-
-
-</div>
-<script src="/script.js">
-
-</script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -78,12 +78,17 @@
 /*#forum1 div:hover{
   -webkit-transform: scale(0.7);
   transform: scale(0.9);
- }
- #vagas div:hover{
+ }*/
+ #vagas .box:hover{
+   
   -webkit-transform: scale(0.7);
   transform: scale(0.9);
  }
- #grupos div:hover{
+
+ .box{
+  cursor: pointer;
+ }
+ /*#grupos div:hover{
   -webkit-transform: scale(0.7);
   transform: scale(0.9);
  }
