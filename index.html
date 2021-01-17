@@ -32,20 +32,20 @@
       </a>
       <form class="form-inline" action="login.html">
 
-        <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Login</button>
+        <button class="btn btn-warning text-white my-2 my-sm-0" type="submit">Login</button>
       </form>
     </nav>
 
-    <nav id="buttons" class="navbar navbar-light ">
+    <nav id="buttons" class="nav text-white"  id="myTab" role="tablist">
       <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a id="btn-vagas" class="nav-link btn btn-warning text-white forum" href="#vagas">Vagas</a>
+        <li class="nav-item ">
+          <a id="btn-vagas" class="nav-link btn btn-warning  text-white forum" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true" href="#vagas">Vagas</a>
         </li>
         <li class="nav-item">
-          <a id="btn-rede" class="nav-link btn btn-warning text-white forum" href="#rede">Rede de Assistência</a>
+          <a id="btn-rede" class="nav-link btn btn-warning text-white forum" href="#rede" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">Rede de Assistência</a>
         </li>
         <li class="nav-item">
-          <a id="btn-forum" class="nav-link btn btn-warning text-white forum" href="#forum1">Fórum</a>
+          <a id="btn-forum" class="nav-link btn btn-warning text-white forum" href="#forum1" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">Fórum</a>
         </li>
       </ul>
     </nav>
@@ -64,7 +64,7 @@
 
 
     <div>
-
+     
       <div id="vagas" style="display: none;" class="card col">
         <!-- <div class="card-header">
       Quote
@@ -137,7 +137,7 @@
 
    
 
-    <div class="card box" id="forum1" style="display: none;">
+    <div class="card col" id="forum1" style="display: none;">
       <div class="card-header">
         <a class="navbar-brand" href="#">
           <img src="/imagens/gilberto.png" width="30" height="30" alt="Pedro Matheus">

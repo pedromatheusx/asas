@@ -8,10 +8,14 @@
 }
 
 .forum {
+ 
   margin-left: 5px;
   margin-bottom: 0px;
 }
 
+#forum1{
+  margin-top: 10px;
+}
 .headerSearch {
   padding-top: 100px;
 }
@@ -124,3 +128,5 @@
 .perfil-container h2 {
   text-align: center;
 }
+
+
