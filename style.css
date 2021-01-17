@@ -1,5 +1,5 @@
 #test {
-  background-color: rgb(128, 8, 240);
+  background-color: #D7E8EC;
 }
 
 .bodySearch {
@@ -92,6 +92,10 @@
   margin-top: 10px;
 }
 
+#rede{
+  margin-top: 10px;
+}
+
 /*#forum1 div:hover{
   -webkit-transform: scale(0.7);
   transform: scale(0.9);
@@ -136,3 +140,16 @@
 .perfil-container h2 {
   text-align: center;
 }
+<<<<<<< HEAD
+=======
+
+
+#buttons .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: rgb(0, 28, 92);
+}
+
+
+#buttons .btn-warning{
+  border-color: none;
+}
+>>>>>>> 02b3050ca082a0048b2810a8f7148f0f0f6ca561

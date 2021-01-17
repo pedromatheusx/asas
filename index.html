@@ -37,6 +37,7 @@
     </nav>
 
     <nav id="buttons" class="nav text-white"  id="myTab" role="tablist">
+<<<<<<< HEAD
       <ul id="menu-aba" class="nav nav-pills">
         <li class="">
           <a id="btn-vagas" class="nav-link" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true" href="#vagas">Vagas</a>
@@ -46,6 +47,20 @@
         </li>
         <li class="">
           <a id="btn-forum" class="nav-link" href="#forum1" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">Fórum</a>
+=======
+      <ul class="nav nav-pills">
+        <li class="nav-item ">
+          <a id="btn-home" onclick="load()" class="nav-link active btn-warning text-white forum" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true" href="#">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a id="btn-vagas" class="nav-link  btn-warning text-white forum" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false" href="#vagas">Vagas</a>
+        </li>
+        <li class="nav-item">
+          <a id="btn-rede" class="nav-link btn-warning text-white forum" href="#rede" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">Rede de Assistência</a>
+        </li>
+        <li class="nav-item">
+          <a id="btn-forum" class="nav-link btn-warning text-white forum" href="#forum1" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">Fórum</a>
+>>>>>>> 02b3050ca082a0048b2810a8f7148f0f0f6ca561
         </li>
       </ul>
     </nav>
@@ -64,18 +79,15 @@
 
 
     <div>
-     
+
+
+      
       <div id="vagas" style="display: none;" class="card col">
         <!-- <div class="card-header">
       Quote
     </div>-->
         <div class="card-body">
-
-
         </div>
-
-
-
         <div class="card-deck">
           <div class="">
             <div class="card-body">
@@ -123,11 +135,22 @@
 
 
 
-      <div id="rede" style="display: none;" class="col">
+      <div id="rede" style="display: none;" class="">
         <div class="card">
-
+          <label class="col">Uma rede completa para te ajudar nas mais diversos assuntos.</label>
           <div class="card-body">
-            djhjfshfdjh
+          <div class="row">
+            <div class="col">
+            <div class="btn-group" role="group" aria-label="Exemplo básico">
+              <button type="button" class="btn btn-secondary">Psicólogos</button>
+              <button type="button" class="btn btn-secondary">Educadores</button>
+              <button type="button" class="btn btn-secondary">Outros</button>
+            </div>
+          </div>
+            <div class=" ">
+              <button class="text-left text-white btn btn-warning">Quero ser voluntário!</button>
+            </div>
+          </div>
           </div>
 
         </div>
