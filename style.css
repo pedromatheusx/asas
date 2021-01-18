@@ -1,5 +1,6 @@
 #test {
   background-color: #D7E8EC;
+    font-family: 'tahoma', serif;
 }
 
 .bodySearch {
@@ -141,4 +142,25 @@
 
 #buttons .btn-warning{
   border-color: none;
+}
+
+
+#psico{
+  display: none;
+}
+
+#edu{
+  display: none;
+}
+
+#boneco {
+  position: absolute;
+  left: 0%; /* posiciona a 90px para a esquerda */ 
+	top: 80px; /* posiciona a 70px para baixo */
+}
+
+#boneco1 {
+  position: absolute;
+	right: 0%;
+	top: 100px
 }
