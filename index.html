@@ -6,7 +6,10 @@
   <link href="style.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Ruluko&family=Sofia&display=swap" rel="stylesheet"/>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Asas</title>
 </head>
 
@@ -26,16 +29,52 @@
     </nav>
   </div>
   <div class="container">
-    <nav class="navbar navbar-light  justify-content-between">
+
+   
+
+    <nav id="navHomeS" style="display: none;" class="navbar navbar-light ">
+      <div class="row">
+      <div class="col">
       <a class="navbar-brand" href="#" onclick="load()">
         <img src="./imagens/Logo.png" width="78" height="78" alt="">
       </a>
+    </div>
+    <div class="">
       <form class="form-inline" action="login.html">
-
         <button class="btn btn-warning text-white my-2 my-sm-0" type="submit">Login</button>
       </form>
+    </div>
+  </div>
     </nav>
+   
+    <img src="/imagens/boneco.png" id="boneco" alt="Paris" width="200" height="200">
+    <img src="/imagens/boneco1.png" id="boneco1" alt="Paris" width="200" height="200">
 
+    <div id="navHomeP">
+    <div class="text-right" >
+  
+  <form  action="login.html">
+
+    <button class="btn btn-warning text-white my-2 my-sm-0" type="submit">Login</button>
+  </form>
+    <div class=" text-center ">
+      <a class="navbar-brand " href="#" onclick="load()">
+        <img src="./imagens/Logo.png" width="100" height="100" alt="">
+      </a>
+      <div style="font-family: 'Sofia', cursive; font-size: 100px; line-height:0">Asas</div>
+    </div>
+  </div>
+    <br/>
+    <br/>
+    <br/>
+  <div class="text-center ">
+    <div style="line-height:0">
+    <p>Rede de <strong style="font-family: 'Ruluko', sans-serif; background-color: yellow;">Integração socio-educativa</strong> </p>
+    <p>para pessoas com deficiência</p>
+  </div>
+  </div>
+    </div>
+<br/><br/>
     <nav id="buttons" class="nav text-white"  id="myTab" role="tablist">
       <ul class="nav nav-pills">
         <li class="nav-item ">
@@ -130,9 +169,9 @@
           <div class="row">
             <div class="col">
             <div class="btn-group" role="group" aria-label="Exemplo básico">
-              <button type="button" class="btn btn-secondary">Psicólogos</button>
-              <button type="button" class="btn btn-secondary">Educadores</button>
-              <button type="button" class="btn btn-secondary">Outros</button>
+              <button type="button" id="btn-psico" class="btn btn-secondary">Psicólogos</button>
+              <button type="button" id="btn-edu" class="btn btn-secondary">Educadores</button>
+              <button type="button"  id="btn-outro" class="btn btn-secondary">Outros</button>
             </div>
           </div>
             <div class=" ">
@@ -142,10 +181,99 @@
           </div>
 
         </div>
+        <div id="psico">
+        <div class="card">
+         
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+              <div class="btn-group" role="group" aria-label="Exemplo básico">
+                <nav class="navbar navbar-light bg-light">
+                  <a class="navbar-brand" href="#">
+                    <img src="/imagens/pedro.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    Pedro Matheus
+                  </a>
+                </nav>
+              </div>
+            </div>
+              <div class=" ">
+                <button class="text-left text-white btn btn-warning">Entra em contato</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col">
+            <div class="btn-group" role="group" aria-label="Exemplo básico">
+              <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                  <img src="/imagens/gilberto.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                  Gilberto
+                </a>
+              </nav>
+            </div>
+          </div>
+            <div class=" ">
+              <button class="text-left text-white btn btn-warning">Entra em contato</button>
+            </div>
+          </div>
+        </div>
+      </div>
       </div>
 
-    </div>
 
+      <div id="edu">
+        <div class="card">
+         
+          <div class="card-body">
+            <div class="row">
+              <div class="col">
+              <div class="btn-group" role="group" aria-label="Exemplo básico">
+                <nav class="navbar navbar-light bg-light">
+                  <a class="navbar-brand" href="#">
+                    <img src="/imagens/pedro.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    Matheus Duarte
+                  </a>
+                </nav>
+              </div>
+            </div>
+              <div class=" ">
+                <button class="text-left text-white btn btn-warning">Entra em contato</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col">
+            <div class="btn-group" role="group" aria-label="Exemplo básico">
+              <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                  <img src="/imagens/gilberto.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                  Junior
+                </a>
+              </nav>
+            </div>
+          </div>
+            <div class=" ">
+              <button class="text-left text-white btn btn-warning">Entra em contato</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+      </div>
+      </div>
+
+    
+<div id="outro"></div>
    
 
     <div class="card col" id="forum1" style="display: none;">
