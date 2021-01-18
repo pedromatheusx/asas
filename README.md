@@ -1,1 +1,1 @@
-# asas
+Asas é um hub de integração que tem como foco o público jovem portador de deficiências fisica, auditiva, visual e mental. Tem por objetivo trazer autonomia e integração para esse público através da disponibilização de vagas de trabalho, assistência psicológica e educacional e promover um espaço de socialização.
