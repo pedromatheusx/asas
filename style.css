@@ -1,6 +1,11 @@
 #test {
+<<<<<<< HEAD
   background-color: #d7e8ec;
   font-family: "tahoma", serif;
+=======
+  background-color: #D7E8EC;
+    font-family: 'tahoma', serif;
+>>>>>>> 8891d5e27b10cfaf57b959dfe61adbdb8be5b1b7
 }
 
 .bodySearch {
