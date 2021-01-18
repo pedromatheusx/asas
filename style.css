@@ -1,10 +1,6 @@
 #test {
-<<<<<<< HEAD
   background-color: #d7e8ec;
-=======
-  background-color: #D7E8EC;
-    font-family: 'tahoma', serif;
->>>>>>> e163c5b54068046a2d2bdf5ceff2079d5c9f4a12
+  font-family: "tahoma", serif;
 }
 
 .bodySearch {
@@ -13,12 +9,11 @@
 }
 
 .forum {
- 
   margin-left: 5px;
   margin-bottom: 0px;
 }
 
-#forum1{
+#forum1 {
   margin-top: 10px;
 }
 .headerSearch {
@@ -146,27 +141,23 @@
 #buttons .btn-warning {
   border-color: none;
 }
-<<<<<<< HEAD
-=======
 
-
-#psico{
+#psico {
   display: none;
 }
 
-#edu{
+#edu {
   display: none;
 }
 
 #boneco {
   position: absolute;
-  left: 0%; /* posiciona a 90px para a esquerda */ 
-	top: 80px; /* posiciona a 70px para baixo */
+  left: 0%; /* posiciona a 90px para a esquerda */
+  top: 80px; /* posiciona a 70px para baixo */
 }
 
 #boneco1 {
   position: absolute;
-	right: 0%;
-	top: 90px
+  right: 0%;
+  top: 90px;
 }
->>>>>>> e163c5b54068046a2d2bdf5ceff2079d5c9f4a12
