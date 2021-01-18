@@ -1,5 +1,5 @@
 #test {
-  background-color: #D7E8EC;
+  background-color: #d7e8ec;
 }
 
 .bodySearch {
@@ -92,7 +92,7 @@
   margin-top: 10px;
 }
 
-#rede{
+#rede {
   margin-top: 10px;
 }
 
@@ -140,16 +140,12 @@
 .perfil-container h2 {
   text-align: center;
 }
-<<<<<<< HEAD
-=======
 
-
-#buttons .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+#buttons .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   background-color: rgb(0, 28, 92);
 }
 
-
-#buttons .btn-warning{
+#buttons .btn-warning {
   border-color: none;
 }
->>>>>>> 02b3050ca082a0048b2810a8f7148f0f0f6ca561
